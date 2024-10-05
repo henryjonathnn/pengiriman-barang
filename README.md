@@ -1,66 +1,102 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+# Project Website Pengiriman Barang
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![GitHub last commit](https://img.shields.io/github/last-commit/henryjonathnn/pengiriman-barang)
+![GitHub issues](https://img.shields.io/github/issues/henryjonathnn/pengiriman-barang)
+![GitHub stars](https://img.shields.io/github/stars/henryjonathnn/pengiriman-barang)
+![GitHub license](https://img.shields.io/github/license/henryjonathnn/pengiriman-barang)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📌 Tentang Proyek
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Proyek ini adalah sistem website yang bertujuan untuk menjadi sarana bagi user untuk bertransaksi, sistem ini cocok digunakan oleh perusahaan yang memasarkan jasa pengiriman barang/ekspedisi, karena telah dilengkapi dashboard admin dan sistem autentikasi + otorisasi.
 
-## Learning Laravel
+## ✨ Fitur Utama
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- 📊 **Admin Dashboard**: Dashboard admin yang berfungsi untuk mengelola data petugas, data kendaraan, data pesanan yang masuk dari user. 
+- 🙍‍♂️ **Client Page**: Landing page tentang jasa pengiriman barang yang bisa anda sesuaikan sendiri.
+- 📦️ **Form pengiriman**: Form ini diperuntukan user yang mau bertransaksi/mengirimkan barang ke konsumen mereka.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## 🛠️ Teknologi yang Digunakan
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<div align="center">
 
-### Premium Partners
+[![Laravel][Laravel.com]][Laravel-url]
+[![Spatie][Spatie.com]][Spatie-url]
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+</div>
 
-## Contributing
+## 🎨 Template yang Digunakan
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<div align="center">
 
-## Code of Conduct
+[![Skydash][Skydash.com]][Skydash-url]
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+</div>
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🚀 Cara Menggunakan
 
-## License
+Ikuti langkah-langkah berikut untuk mengkloning dan menjalankan proyek:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+# Kloning repositori
+git clone https://github.com/henryjonathnn/pengiriman-barang.git
+
+# Masuk ke direktori proyek
+cd pengiriman-barang
+
+# Instal dependensi PHP
+composer install
+
+# Instal dependensi Node.js
+npm install
+
+# Salin file .env
+cp .env.example .env
+
+# Generate kunci aplikasi
+php artisan key:generate
+
+# Jalankan migrasi database
+php artisan migrate
+
+# Jalankan server Laravel
+php artisan serve
+```
+
+## 📞 Kontak
+
+<div align="center">
+
+[![Instagram][Instagram.com]][Instagram-url]
+[![LinkedIn][LinkedIn.com]][LinkedIn-url]
+[![Email][Email.com]][Email-url]
+[![YouTube][YouTube.com]][YouTube-url]
+
+</div>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Instagram.com]: https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white
+[Instagram-url]: https://instagram.com/henryjonathnn
+[LinkedIn.com]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[LinkedIn-url]: https://www.linkedin.com/in/henry-jonathan-chandra-b531402a8/
+[Email.com]: https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Email-url]: mailto:henryjonathanchandra12@gmail.com
+[YouTube.com]: https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white
+[YouTube-url]: https://youtube.com/@henryjonathnn
+
+<div align="center">
+  © 2024 henryjonathnn. All rights reserved.
+</div>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Skydash.com]: https://img.shields.io/badge/Skydash-403D70?style=for-the-badge&logo=skydash&logoColor=white
+[Skydash-url]: https://www.bootstrapdash.com/product/skydash-admin-template/
+[Spatie.com]: https://img.shields.io/badge/Spatie-007694?style=for-the-badge&logo=spatie&logoColor=white
+[Spatie-url]: https://spatie.be/docs/laravel-permission/v5/introduction
+
