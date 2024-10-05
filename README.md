@@ -57,6 +57,9 @@ cp .env.example .env
 # Jalankan migrasi database
 php artisan migrate
 
+# Seeding database
+php artisan db:seed
+
 # Jalankan server Laravel
 php artisan serve
 ```
