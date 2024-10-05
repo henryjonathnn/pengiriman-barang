@@ -51,14 +51,8 @@ cd pengiriman-barang
 # Instal dependensi PHP
 composer install
 
-# Instal dependensi Node.js
-npm install
-
 # Salin file .env
 cp .env.example .env
-
-# Generate kunci aplikasi
-php artisan key:generate
 
 # Jalankan migrasi database
 php artisan migrate
